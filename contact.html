@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kasi Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="kasimusic.png">
 </head>
+<style>
+    ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+    }
+    .active {
+       background-color: #4CAF50;
+       color: white;
+    }
+    li {
+       border-bottom: 1px solid #555;
+       display: inline;
+    }
+    </style>
+  <ul>
+    <li><a class="active" href="home.html" style="font-size: xx-large;">Home</a></li>
+    <li><a href="about.html" style="font-size: xx-large;">About</a></li>
+    <li><a href="contact.html" style="font-size: xx-large;">Contact</a></li>
+  </ul>
+<h1 style="font-size:70px;"> Contact Page</h1>
 <body>
-    
+    <div class="container">
+      <form action="action_page.php">
+        <label for="fname"><h1>First Name</h1></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." size="50" >
+        <label for="lname"><h1>Last Name</h1></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." size="50">
+        <label for="country"><h1>Country</h1></label>
+        <input type="text" id="lname" name="Country" placeholder="Country" size="50">
+        <label for="subject"><h1>Subject</h1></label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea><br>
+        <label for="avatar"><h1>Choose a profile picture:</label><br>
+<input type="file" size="50"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+        <input type="submit">
+      </form>
+    </div> 
 </body>
-</html>
+</html>xx
