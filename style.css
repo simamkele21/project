@@ -1,3 +1,20 @@
+@keyframes fader {
+    0% {background:url(Sima.jpg)}
+    50%{background: url(Project.png);}
+    100%{background: url(Sima.jpg);}
+}
+
+#wrapper {
+    max-width: 400px;
+    Border: thin black solid;
+    margin: auto;
+    padding: 20px;
+}
+#gallary {
+    max-width: 400xp;
+    margin: auto;
+}
+
 .about-section{
     text-align:center;
     padding: auto;
@@ -15,10 +32,6 @@ body{
   background-image: url(Untitled-design-1-10.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.music {
-    border-radius: 50px;
 }
 
 ul{
