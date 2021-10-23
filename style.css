@@ -1,48 +1,47 @@
 .wrapper {
-    max-width: 400px;
-    margin: 0% auto;
+  max-width: 400px;
+  margin: 0% auto;
 }
-.about-section{
-    text-align:center;
-    padding: auto;
-    color:rgb(255, 255, 255);
-}
-
-.container{
-    text:size adjust 70px;
-    text-align: center;
-    padding:auto;
-    color: rgb(254, 254, 255);
+.about-section {
+  text-align: center;
+  padding: auto;
+  color: rgb(255, 255, 255);
 }
 
-body{ 
+.container {
+  text-size-adjust: 70px;
+  text-align: center;
+  padding: auto;
+  color: rgb(254, 254, 255);
+}
+
+body {
   background-image: url(Untitled-design-1-10.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-ul{
- list-style-type: none;
- margin: 0;
- padding: 0;
- overflow: hidden;
- background-color: #333;
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-li{
-    float: left;
+li {
+  float: left;
 }
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+li .navlink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-li a:hover {
-
-    background-color: #666;
+li .navlink:hover {
+  background-color: #666;
 }
 
 li a .active {
-    background-color: #111;
+  background-color: #111;
 }
