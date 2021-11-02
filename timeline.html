@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="timeline.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Timeline</title>
-</head>
-<style>
-  #timeline {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-  }
-  .active {
-     background-color: #4CAF50;
-     color: white;
-  }
-  .entry {
-     border-bottom: 1px solid #555;
-     display: inline;
-  }
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="timeline.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Timeline</title>
+  </head>
+  <style>
+    #timeline {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .active {
+      background-color: #4caf50;
+      color: white;
+    }
+    .entry {
+      border-bottom: 1px solid #555;
+      display: inline;
+    }
   </style>
-<ul class="navbar">
-  <li><a class="active navlink" href="index.html" style="font-size: xx-large;">Home</a></li>
-  <li><a class="navlink" href="about.html" style="font-size: xx-large;">About</a></li>
-  <li><a class="navlink" href="contact.html" style="font-size: xx-large;">Contact</a></li>
-  <li><a class="navlink" href="Testimonials.html" style="font-size: xx-large;">Testimonials</a></li>
-  <li><a class="navlink" href="timeline.html" style="font-size: xx-large">Timeline</a></li>
+  <ul class="navbar">
+    <li>
+      <a class="active navlink" href="index.html" style="font-size: xx-large"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a class="navlink" href="about.html" style="font-size: xx-large">About</a>
+    </li>
+    <li>
+      <a class="navlink" href="contact.html" style="font-size: xx-large"
+        >Contact</a
+      >
+    </li>
+    <li>
+      <a class="navlink" href="Testimonials.html" style="font-size: xx-large"
+        >Testimonials</a
+      >
+    </li>
+    <li>
+      <a class="navlink" href="timeline.html" style="font-size: xx-large"
+        >Timeline</a
+      >
+    </li>
   </ul>
-  
-<body>
-  <h2 style="font-size:70px; text-align: center;color: rgb(255, 255, 255);">Educational Timeline</h2>
+
+  <body>
+    <!-- <h2 style="font-size:70px; text-align: center;color: rgb(255, 255, 255);">Educational Timeline</h2>
 <ul id='timeline'>
   <li class='entry'>
     <input class='radio' id='trigger4' name='trigger' type='radio'>
@@ -114,6 +132,103 @@
       </p>
      </div>
   </li>
-</ul>
-</body>
+</ul> -->
+    <section id="timeline">
+      <div class="tl-item">
+        <div
+          class="tl-bg"
+          style="background-image: url(https://placeimg.com/801/801/nature)"
+        ></div>
+
+        <div class="tl-year">
+          <p class="f2 heading--sanSerif">January 2013</p>
+        </div>
+
+        <div class="tl-content">
+          <h1>Start of high school education</h1>
+          <p>
+            January 2013 I started my high school education at Garlandale high
+            school.
+          </p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div
+          class="tl-bg"
+          style="background-image: url(https://placeimg.com/802/802/nature)"
+        ></div>
+
+        <div class="tl-year">
+          <p class="f2 heading--sanSerif">November 2018</p>
+        </div>
+
+        <div class="tl-content">
+          <h1 class="f3 text--accent ttu">
+            This is the year I completed my Grade 12 examination
+          </h1>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div
+          class="tl-bg"
+          style="background-image: url(https://placeimg.com/803/803/nature)"
+        ></div>
+
+        <div class="tl-year">
+          <p class="f2 heading--sanSerif">25 March 2019</p>
+        </div>
+
+        <div class="tl-content">
+          <h1 class="f3 text--accent ttu">
+            Start of Internship with Department of local government(01 April
+            2019)
+          </h1>
+          <p>Here i an intern where my primary duties were mainly:</p>
+          <ol>
+            Administration
+          </ol>
+          <ol>
+            Creating and maintaining files
+          </ol>
+          <ol>
+            Stakeholder liaise
+          </ol>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div
+          class="tl-bg"
+          style="background-image: url(https://placeimg.com/800/800/nature)"
+        ></div>
+
+        <div class="tl-year">
+          <p class="f2 heading--sanSerif">June 2020</p>
+        </div>
+
+        <div class="tl-content">
+          <h1 class="f3 text--accent ttu">
+            In June of 2020 I started studying IT at iCOLLEGE.
+          </h1>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div
+          class="tl-bg"
+          style="background-image: url(https://placeimg.com/800/800/nature)"
+        ></div>
+
+        <div class="tl-year">
+          <p class="f2 heading--sanSerif">September 2021</p>
+        </div>
+
+        <div class="tl-content">
+          <h1 class="f3 text--accent ttu">Start of Life Choices Bootcamp</h1>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
